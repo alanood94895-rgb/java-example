@@ -1,6 +1,6 @@
 public class fizzString {
     public static void main (String[] args){
-        System.out.println();
+        System.out.println(fizzString("fig"));
     }
     public static String fizzString(String str){
         if (str.startsWith("f")  && str.endsWith("b")){
